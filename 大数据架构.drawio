@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T10:17:56.209Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="ElLjkXY_fzWFXD6fIOjP" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-11T01:04:32.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="YEJEWXSWC3ubgrF5nq8N" version="22.1.18" type="github">
   <diagram name="labmda架构" id="hacYPbp8Z5PB7qih_abq">
     <mxGraphModel dx="2853" dy="2314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -153,6 +153,15 @@
         </mxCell>
         <mxCell id="uAm6pVi8uM0xlMwpX-Ed-58" value="ECHARTS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="-890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uAm6pVi8uM0xlMwpX-Ed-60" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-574" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uAm6pVi8uM0xlMwpX-Ed-61" value="batch view" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="-560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAm6pVi8uM0xlMwpX-Ed-62" value="real-time view" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-560" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
