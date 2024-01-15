@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T08:38:18.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="9EUZeBKRq8Wk58RknbiT" version="22.1.18" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-15T01:43:10.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="V8hbXjWjeKWOJus6wUpL" version="22.1.18" type="github" pages="3">
   <diagram name="生产者核心流程图" id="ZvPD3j21bjXKeY6uA_7l">
     <mxGraphModel dx="2266" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -333,7 +333,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y9BsgM-jRPUb4x8YRV8n" name="RecordAccumulator原理图">
-    <mxGraphModel dx="984" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2266" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -447,15 +447,16 @@
         <mxCell id="E62mDuTD3YQfKo82fARu-29" value="batches" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="E62mDuTD3YQfKo82fARu-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="E62mDuTD3YQfKo82fARu-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="AKhB4bnIMCtOZ_h8jJl_-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="295.46000000000004" y="410" as="sourcePoint" />
             <mxPoint x="356" y="543.315" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="285.46000000000004" y="410" />
-              <mxPoint x="285.46000000000004" y="460" />
-              <mxPoint x="275.46000000000004" y="460" />
-              <mxPoint x="275.46000000000004" y="543" />
+              <mxPoint x="286" y="410" />
+              <mxPoint x="286" y="460" />
+              <mxPoint x="276" y="460" />
+              <mxPoint x="276" y="543" />
+              <mxPoint x="376" y="543" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -493,6 +494,9 @@
         </mxCell>
         <mxCell id="AKhB4bnIMCtOZ_h8jJl_-9" value="RecordBatch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="676" y="520" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AKhB4bnIMCtOZ_h8jJl_-10" value="ByteBuffer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="686.5" y="560" width="63" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
